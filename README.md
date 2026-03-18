@@ -10,7 +10,7 @@ npm run dev        # http://localhost:5173
 ## Run with Docker locally
 
 docker build -t react-app .
-docker run -p 3000:80 react-app
+docker run -d --name react-docker-cicd -p 3000:80 react-app
 # open http://localhost:3000
 
 ## GitHub Secrets required
